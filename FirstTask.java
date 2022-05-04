@@ -1,10 +1,14 @@
-package com.company;
-
-public class FirstTask {
+public class FirstTask  {
     public static void main(String[] args) {
-        int a = 7;
-        int b = 2;
-        System.out.println(a/b);
-        System.out.println(a%b);
+        int n = 67;
+        if (n > 50) {
+            if (n < 100) {
+                System.out.println("Число " + n + " міститься на проміжку (50;100)");
+            }
+        }if (n < 50) {
+            System.out.println("Число " + n + " не міститься на проміжку (50;100)");
+        }if (n > 100) {
+            System.out.println("Число " + n + " не міститься на проміжку (50;100)");
+        }
     }
 }
